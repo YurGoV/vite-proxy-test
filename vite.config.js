@@ -7,7 +7,7 @@ export default defineConfig({
     proxy: {
       '/api': {
         target: 'https://public.api.openprocurement.org', // Replace with your API URL
-        // changeOrigin: true,
+        changeOrigin: true,
         rewrite: (path) => path.replace(/^\/vite-proxy-test/, ''),
       },
     },
