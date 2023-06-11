@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   axios
-    // .get('https://public.api.openprocurement.org/api/2.5/plans') ///
+    // .get('https://public.api.openprocurement.org/api/2.5/plans') //
     .get('/api/2.5/plans')
     .then((response) => {
       const { data, next_page } = response.data;
