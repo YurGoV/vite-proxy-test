@@ -6,8 +6,8 @@ import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter basename='vite-proxy-test'>
+    {/* <BrowserRouter basename='vite-proxy-test'> */}
       <App />
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
   </React.StrictMode>
 );
